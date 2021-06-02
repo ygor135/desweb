@@ -1,0 +1,117 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(227, 240, 252);
+}
+.branco{
+    color: brown;
+}
+
+header{
+    background-color: forestgreen;
+    padding: 15px;
+    text-align: center;
+}
+
+#logo, #menu{
+    padding: 10px;
+}
+h1{
+    font-size: 2.5em;
+}
+
+a{
+    text-decoration: none;
+}
+a:link, a:visited{
+    color: gold;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+header a:link, a:visited{
+    color: white;
+    padding: 8px 12px;
+}
+header a:hover{
+    color: black;
+    background: white;
+    text-decoration: none;
+}
+main{
+    width: 1400px;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+
+main #central{
+    float: left;
+    width: 750px;
+    /*background: white;*/
+    margin-bottom: 15px;
+}
+main aside{
+    float: right;
+    width: 360px;
+}
+.cont-lat{
+    background: white;
+    padding: 10px;
+    margin: 20px;
+}
+.postagem-lat{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px solid;
+    border-color: #ccc;
+}
+
+main footer{
+    background: silver;
+    clear: both;
+    text-align: center;
+    padding: 15px;    
+}
+
+section img{
+    width: 708px;
+}
+section{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+section p{
+    padding-right: 5px;
+}
+h2{
+    color: forestgreen;
+}
+h3{
+    color: forestgreen;
+    background: #CCC;
+    padding: 5px;
+}
+.data {
+    font-size: 0.7em;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+#leiar {
+    color: black;
+}
+.cont-lat a{
+    color: blueviolet;
+}
+
+footer address{
+    display: inline;
+}
